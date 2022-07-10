@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello World</title>
+	  <link rel="stylesheet" type="text/css" href="styles.css" />
+	  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <h1 id="title">Join Us!</h1>
+    <p id="description">Welcome to Hello World community. With us you can make coding friends from all over the world. Fill in the form to join us.</p>
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label">Nickname: <input type="text" id="name" required placeholder="Happy Coder"/></label>
+         <label id="email-label">Email: <input type="email" id="email" placeholder="coder@coder.com" required /></label>
+        <label>Password: <input type="password" name="password" pattern="[a-z0-5]{8,}" required /></label>
+<label id="number-label">Birth Year: <input type="number" id="number" min="1910" max="2012"placeholder="2000" />
+			  </label>
+      </fieldset>
+      <fieldset>I am a
+        <label><input type="radio" name="account-type" class="inline" id="student"/> Student</label>
+	<label><input type="radio" name="account-type" class="inline" id="entry"/> Entry level</label>
+        <label><input type="radio" name="account-type" class="inline" id="pro"/> Pro</label>
+Choose your gender:<select id="dropdown">
+  <option id="0"></option>
+  <option id="1">female</option>
+  <option id="2">male</option>
+  <option id="3">non-binary</option>
+  </select>
+      </fieldset>
+      <fieldset id="lang">    
+<label for="lang">Choose your coding languages:    </label>
+        <input type="checkbox" name="language" class="inline" id="Python" /><label for="Python">Python</label>
+         <input type="checkbox" name="language" class="inline" id="JavaScript"/><label for "JavaScript">JavaScript</label>
+         <input type="checkbox" name="language" class="inline" id="Java" /><label for="Java"> Java</label>
+         <input type="checkbox" name="language" class="inline" id="C" /><label for="C">C</label>
+         <input type="checkbox" name="language" class="inline" id="C#"/><label for="C#">C#</label>
+         <input type="checkbox" name="language" class="inline" id="C++" /><label for="C++">C++</label>
+         <input type="checkbox" name="language" class="inline" id="Ruby" /><label for="Ruby">Ruby</label>
+         <input type="checkbox" name="language" class="inline" id="PHP"/><label for="PHP">PHP</label>
+         <input type="checkbox" name="language" class="inline" id="Kotlin" /><label for="Kotlin">Kotlin</label>
+         <input type="checkbox" name="language" class="inline" id="Swift" /><label for="Swift">Swift</label>
+         <input type="checkbox" name="language" class="inline" id="Go"/><label for="Go">Go</label>
+         <input type="checkbox" name="language" class="inline" id="Other" /><label for="Other">Other</label>
+    
+		<label>Tell us more about you:
+          <textarea name="bio" rows="3" cols="30" placeholder="I like coding in the garden..."></textarea>
+			  </label>
+      </fieldset>  
+      <input type="submit" id="Submit" id="submit" />
+    </form>
+  </body>
+</html>
